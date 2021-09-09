@@ -1,0 +1,599 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ body{
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Noto Sans', sans-serif;
+    color: #2e2e31;
+ }
+
+ a{
+    text-decoration: none;
+}
+
+p{
+    color: #58646F;
+}
+
+
+section{
+display: flex;
+justify-content: center;
+padding: 6.875em 2.5em 8.125em;
+text-align: center;
+align-items: center;
+}
+
+/* CSS Header*/
+
+ header{
+     width: 100%;
+     background-color: rgba(191, 163, 255, 0.1);
+     box-shadow: 0 0 29px 0 rgba(191, 163, 255, 0.25);
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .menu-container a{
+    text-decoration: none;
+    padding: 1rem 2rem;
+ }
+
+ .logo-img{
+    padding: 1.25em;
+ }
+
+ .name-logo{
+    font-weight: bold;
+    font-size: 3.125rem;
+    color: #BFA3FF;
+ }
+
+
+ .nav-header{
+    padding: 1rem 2rem;
+ }
+
+ .nav-header a{
+    color: whitesmoke;
+    background: #A7D4F7;
+    border-radius: 75%;
+ }
+
+ .nav-header a:hover{
+    background: #BFA3FF;
+ }
+
+ .nav-item{
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+ }
+
+
+/*CSS Seaccion sobre mi*/
+
+.about-section{
+    display: flex;
+    padding: 80px 40px 130px;
+    text-align: center;
+}
+
+.about-text{
+    margin-top: 5.25em;
+    margin-left: auto;
+}
+
+.about-name{
+    font-weight: 900;
+    font-size: 6.25rem;
+    color: #A7D4F7;
+}
+
+
+
+.about-description{
+    padding-bottom: 2em;
+}
+
+
+ .button{
+        color: whitesmoke;
+        background: #BFA3FF;
+        padding: 1rem 2rem;
+        border-radius: 50%;
+        text-transform: uppercase;
+        text-decoration: none;
+    
+    }
+
+ .button:hover{
+        background: #A7D4F7;
+    }
+
+.img-div{
+    margin-top: 3.125em;
+    margin-right: auto;
+}
+
+
+/*CSS Seccion Cita*/
+
+.quote-section{
+    background-color: #A7D4F7;
+    padding: 5em 2.5em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.quote-icon{
+    color: #BFA3FF;
+    font-size: 4.375rem;
+}
+
+.quote{
+    color: #58646F;
+    font-size: 1.875rem;
+
+}
+
+.quote-author{
+    color: #BFA3FF;
+    font-size: 3.125rem;
+
+}
+
+/*CSS Seccion Conocimientos*/
+
+.skills-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 9.375em;
+}
+
+.section-title{
+    font-weight: 900;
+    font-size: 4rem;
+    color: #BFA3FF;
+    padding-bottom: 0.5em;
+}
+
+.skill-text{
+    padding-bottom: 2em;
+}
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 62rem;
+    margin: auto;
+    justify-content: center;
+    flex-shrink: inherit;
+}
+
+.skill-item-a{
+    font-size: 2.500rem;
+    color: #BFA3FF;
+    border: 2px solid #A7D4F7;
+    border-radius: 8px;
+    width: 17rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.skill-item-b{
+    font-size: 2.500rem;
+    color: #A7D4F7;
+    border: 2px solid #BFA3FF;
+    border-radius: 8px;
+    width: 17rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.icon-skill{
+    font-size: 3.125rem;
+}
+
+.skill-item-a:hover{
+    box-shadow: 0 0 29px 0 rgba(167, 212, 247, 0.50);
+}
+
+.skill-item-b:hover{
+    box-shadow: 0 0 29px 0 rgba(191, 163, 255, 0.50);
+}
+
+
+/*CSS Seccion Proyectos*/
+
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 110px 40px 130px;
+    background: rgba(167, 212, 247, 0.2);
+}
+
+
+.projects-container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2.5em;
+    padding: 1.875em;
+    
+}
+
+.projects-a{
+    border: 2px solid;
+    border-color: #A7D4F7;
+    border-radius: 8px;
+    color: #BFA3FF;
+    width: 18.75em;
+    height: 287px;
+    margin: 0.625em;
+    padding: 1.875em;
+    background: white;
+}
+
+.projects-b{
+    border: 2px solid;
+    border-color: #BFA3FF;
+    border-radius: 8px;
+    color: #A7D4F7;
+    width: 18.75em;
+    height: 287px;
+    margin: 0.625em;
+    padding: 1.875em;
+    background: white;
+}
+
+.img-projects{
+    display: block;
+    width: 100%;
+}
+
+.projects-a:hover{
+    box-shadow: 0 0 29px 0 rgba(167, 212, 247, 0.50);
+}
+
+.projects-b:hover{
+    box-shadow: 0 0 29px 0 rgba(191, 163, 255, 0.50);
+}
+
+/*CSS Seccion Contacto*/
+
+.contact-section{
+    display: flex;
+    }
+    
+    form{
+        width: 25%;
+       
+    }
+    
+    label{
+        font-size: 1rem;
+        color: #A7D4F7;
+        padding: 0.25em;
+        margin: 0.125em;
+    }
+    
+    input{
+        margin-bottom: 0.625em;
+        border: 1px solid #58646F;
+    }
+    
+    ::placeholder{
+        color: #BFA3FF;
+    }
+    
+    .section-border{
+        display: flex;
+        flex-direction: row;
+        border: 2px solid #A7D4F7;
+        border-radius: 30px;
+    }
+    
+    .contact-section h2{
+        font-size: 3.125rem;
+        font-weight: bold;
+        color: #BFA3FF;
+    }
+    
+    .contact-section h3{
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #BFA3FF;
+    }
+    
+    
+    .contact-links{
+        margin: 0.625em;
+        padding: 1.25em;
+        flex-direction: column;
+    }
+    .contact-links ul{
+    margin-top: 1.875em;
+    }
+    
+    .contact-links ul li{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    
+    .contact-links li:hover a{
+        color: #A7D4F7;
+    }
+    
+    .contact-links li:hover i{
+        color: #BFA3FF;
+    }
+    
+    .social-item{
+        text-decoration: none;
+        color: #58646F;
+    }
+    
+    .contact-form{
+        margin: 0.625em;
+        padding: 1.25em;
+        flex-direction: column;
+    }
+    
+    .contact-name{
+     display: flex;
+    margin-top: 1em;
+    }
+    
+    .name-surname{
+        display: block;
+        margin: 0.188em;
+    }
+    
+    
+    .contact-mail{
+        display: flex;
+        display: block;
+        margin: 0.188em;
+    }
+    
+    textarea{
+        width: 15.625em;
+       height: 100px;
+       margin: 0.188em;
+    }
+    
+    label{
+        font-weight: 800;
+        
+    }
+    
+    .input-class{
+        border-radius: 20px;
+        border: 1px solid #BFA3FF;
+        height: 3em;
+        padding-left: 1.25em;
+    }
+    
+    .textarea-class{
+        border-radius: 15px;
+        border: 1px solid #BFA3FF;
+        height: 10em;
+        padding-left: 1.25em;
+        resize: none;
+    }
+    
+    .contact-button{
+        background: rgba(167, 212, 247, 0.5);
+        padding: 1em;
+        border: 2px solid #BFA3FF;
+        color: #BFA3FF;
+        border-radius: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    .contact-button:hover{
+        border: 2px solid #A7D4F7 ;
+        background: rgba(191, 163, 255, 0.3);
+        color: #A7D4F7;
+    }
+    
+    /*CSS Footer*/
+    
+    footer{
+        background: #BFA3FF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.813em;
+    
+    }
+    
+    
+    footer p a{
+        color: #A7D4F7;
+        font-weight: bold;
+    }
+    
+    .footer-nav{
+    padding: 1.25em;
+    }
+    
+    
+    .footer-nav-link{
+        color: #A7D4F7;
+        padding: 1rem 2rem;
+        text-transform: uppercase;
+    }
+    
+    .footer-nav-link:hover{
+        color: whitesmoke;
+    }
+    
+    .footer-nav-item{
+        display: inline;
+    }
+     
+    
+    li{
+     list-style: none;
+    }
+    
+    .icon{
+        color: #A7D4F7;
+       font-size: 2.5rem;
+       width: 80px;  
+       padding: 10px;
+       margin: 10px;
+    }
+    
+    footer .icon:hover{
+        color: whitesmoke;
+    }
+    
+    footer p a:hover{
+        color: whitesmoke;
+    }
+
+    /* Media queris */
+
+    @media (min-width: 0px) and (max-width: 1000px){
+        header{ 
+            display: none;
+          }
+     
+          .footer-nav{
+              display: none;
+          }
+          .section-border{
+            flex-direction: column;
+        }
+         }
+
+         @media (max-width:1200px){
+            .contact-section{
+                width: 100%; 
+               }
+            .skills-container{
+            width: 60%;
+            }
+            .projects-container{
+            width: 80%;
+        }
+        footer{ 
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-header{
+            display: none;
+        }
+    }
+
+    @media (max-width:1024px){
+        footer{ 
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav-header{
+            display: none;
+        }
+       
+    }
+
+        @media (max-width:768px){
+
+            .about-description{
+                font-size: 1em;
+            }
+            }
+
+        @media (max-width:480px){
+          .about-name{
+              font-size: 5rem;
+          }
+          footer{
+              display: flex;
+              flex-direction: column;
+          }
+          .section-title{
+              font-size: 3.5rem;
+          }
+          .quote{
+              font-size: 1.700rem;
+          }
+          .quote-author{
+              font-size: 3.125rem;
+          }
+        }
+
+
+        @media (max-width:320px){
+            .about-name{
+                font-size: 2rem;
+              }
+            .quote{
+                font-size: 0.8rem;
+            }
+            .quote-author{
+                font-size: 1.2rem;
+            }
+            .section-title{
+                font-size: 1.6rem;
+            }
+            p{
+                font-size: small;
+            }
+            .contact-links{
+                min-width: 50%;
+                margin-left: 10px;
+            }
+            h2{
+                font-size: 2rem;
+            }
+            
+            h3{
+                font-size: 1.3rem;
+            }
+            .social-item{
+                font-size: small;
+            }
+            .input-class{
+                width: 190%;
+            }
+
+            .textarea-class{
+                width: 190%;
+            }
+            footer{
+                display: flex;
+                flex-direction: column;
+            }
+        }
